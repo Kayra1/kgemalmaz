@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.button_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.settings{
+    background-color: aqua
+}
