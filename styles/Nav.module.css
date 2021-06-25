@@ -1,9 +1,29 @@
 .nav {
+    background: cornflowerblue;
+
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    max-width: 1500px;
+
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
 }
 
 .icon {
-    font-size: 24px;
+    border: solid;
+    border-width: 1px;
+    padding: 12px;
+
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
 }
 
 .button_row{
@@ -14,6 +34,20 @@
     padding: 8px;
 }
 
+.settings_bg {
+    position: relative;
+
+    height: 35px;
+    width: 35px;
+
+    background: #F3F3F3;
+    box-shadow: 1px 1px 3px #CCCCCC, -1px -1px 3px #FFFFFF;
+    border-radius: 5px;
+}
+
 .settings{
-    background-color: aqua
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
 }
